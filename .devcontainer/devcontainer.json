@@ -1,0 +1,9 @@
+{
+  "name": "backend-dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "go mod download",
+  "forwardPorts": [8080],
+  "runArgs": ["--env", "GIN_MODE=debug"]
+}

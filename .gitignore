@@ -30,3 +30,6 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+tmp/build-errors.log
+go.sum
+go.mod
