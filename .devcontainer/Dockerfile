@@ -5,7 +5,9 @@ FROM golang:1.24-bullseye
 WORKDIR /workspaces/jpgg-backend
 
 # git, bash, make をインストール
-RUN apt-get update -qq && apt-get install -y --no-install-recommends git bash make 
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        git bash make 
 
 # Go モジュールをインストール
 RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/home/vscode/.cache/go-build \
