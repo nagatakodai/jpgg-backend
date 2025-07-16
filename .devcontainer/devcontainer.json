@@ -1,9 +1,32 @@
 {
-  "name": "backend-dev",
+  // VSCode上のコンテナ名
+  "name": "jpgg-backend",
+  // コンテナ名
+  "runArgs": [
+    "--name",
+    "jpgg-backend"
+  ],
+  // ビルド設定
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "go mod download",
-  "forwardPorts": [8080],
-  "runArgs": ["--env", "GIN_MODE=debug"]
+  "postCreateCommand": "/bin/bash .devcontainer/setup.sh",
+  // VS Code 設定
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true // 保存時自動フォーマット
+      }
+    }
+  },
+  // ポートフォワード
+  "forwardPorts": [
+    8080
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "GoLang", // UI に表示されるラベル
+      "onAutoForward": "openPreview" // 自動プレビューを開く
+    }
+  }
 }
