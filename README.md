@@ -10,7 +10,7 @@
 ## 1. リポジトリを取得
 
 ```bash
-# ★ WSL2 側 (例: Ubuntu) に配置
+# WSL2 側 (例: Ubuntu) に配置
 cd ~/jpgg/jpgg-backend # 任意の作業ルート
 git clone github.com/nagatakodai/jpgg-backend
 cd jpgg-backend
