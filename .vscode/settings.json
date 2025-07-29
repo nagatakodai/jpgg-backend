@@ -1,0 +1,30 @@
+{
+  // すべてのファイル
+  // Git の制限警告を無視
+  "git.ignoreLimitWarning": true,
+  // 保存時に Prettier / ESLint（--fix）などが自動実行
+  "editor.formatOnSave": true,
+  // ESLint v9 以降の FlatConfig を使う場合に必須
+  "eslint.useFlatConfig": true,
+  "files.eol": "\n", // 改行コードは LF
+  "files.insertFinalNewline": true, // ファイルの末尾に改行を挿入
+  "files.trimTrailingWhitespace": true, // 行末の空白を削除
+  // Go, Makefile など → タブ
+  "[go]": {
+    "editor.tabSize": 4, // タブ幅は 4
+    "editor.insertSpaces": false // タブ文字を使用
+  },
+  "[makefile]": {
+    "editor.tabSize": 4, // タブ幅は 4
+    "editor.insertSpaces": false // タブ文字を使用
+  },
+  // yaml/json → 2 スペ
+  "[yaml]": {
+    "editor.tabSize": 2, // タブ幅は 2
+    "editor.insertSpaces": true // スペースを使用
+  },
+  "[json]": {
+    "editor.tabSize": 2, // タブ幅は 2
+    "editor.insertSpaces": true // スペースを使用
+  }
+}

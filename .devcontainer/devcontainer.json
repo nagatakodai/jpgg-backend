@@ -11,18 +11,10 @@
     "dockerfile": "Dockerfile"
   },
   "postCreateCommand": "/bin/bash .devcontainer/setup.sh",
-  // VS Code 設定
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "editor.formatOnSave": true // 保存時自動フォーマット
-      },
-      // エディタ拡張
-      "extensions": [
-        "golang.go"
-      ]
-    }
-  },
+  // GITマウント
+  "mounts": [
+    "source=C:/Users/strad/.gitconfig,target=/workspaces/jpgg-frontend/.git/.gitconfig,type=bind,consistency=cached"
+  ],
   // ポートフォワード
   "forwardPorts": [
     8080

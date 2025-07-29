@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode", // Prettier
+        "golang.go" // Go language support
+    ]
+}
