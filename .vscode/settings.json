@@ -4,8 +4,6 @@
   "git.ignoreLimitWarning": true,
   // 保存時に Prettier / ESLint（--fix）などが自動実行
   "editor.formatOnSave": true,
-  // ESLint v9 以降の FlatConfig を使う場合に必須
-  "eslint.useFlatConfig": true,
   "files.eol": "\n", // 改行コードは LF
   "files.insertFinalNewline": true, // ファイルの末尾に改行を挿入
   "files.trimTrailingWhitespace": true, // 行末の空白を削除

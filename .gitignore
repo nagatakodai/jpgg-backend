@@ -33,3 +33,4 @@ go.work.sum
 tmp/build-errors.log
 go.sum
 go.mod
+tmp/jpgg

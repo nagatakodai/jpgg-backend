@@ -20,7 +20,7 @@
     8080
   ],
   "portsAttributes": {
-    "3000": {
+    "8080": {
       "label": "GoLang", // UI に表示されるラベル
       "onAutoForward": "openPreview" // 自動プレビューを開く
     }
