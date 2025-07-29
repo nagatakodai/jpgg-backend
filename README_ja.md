@@ -1,26 +1,4 @@
-# Standard Go Project Layout
-
-翻訳:
-
-* [English](README.md)
-* [한국어 문서](README_ko.md)
-* [简体中文](README_zh.md)
-* [正體中文](README_zh-TW.md)
-* [简体中文](README_zh-CN.md) - ???
-* [Français](README_fr.md)
-* [日本語](README_ja.md)
-* [Portuguese](README_ptBR.md)
-* [Español](README_es.md)
-* [Română](README_ro.md)
-* [Русский](README_ru.md)
-* [Türkçe](README_tr.md)
-* [Italiano](README_it.md)
-* [Vietnamese](README_vi.md)
-* [Українська](README_ua.md)
-* [Indonesian](README_id.md)
-* [हिन्दी](README_hi.md)
-* [Беларуская](README_be.md)
-
+# Standard Go Project Layout ([ソース](https://github.com/golang-standards/project-layout/blob/master/README_ja.md))
 ## 概要
 
 これは、Goアプリケーションプロジェクトの基本的なレイアウトです。これは、コアとなるGo開発チームによって定義された公式の標準ではありませんが、Goエコシステムの中で、歴史的に共通しているプロジェクトのレイアウトパターンのセットとなっています。これらのパターンの中には、他のパターンよりも人気のあるものもあります。また、現実世界の大規模なアプリケーションに共通するいくつかのサポートディレクトリに加えて、いくつかの小さな機能強化が行われています。
