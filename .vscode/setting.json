@@ -1,0 +1,34 @@
+{
+    // すべてのファイル
+    "files.eol": "\n", // 改行コードは LF
+    "files.insertFinalNewline": true, // ファイルの末尾に改行を挿入
+    "files.trimTrailingWhitespace": true, // 行末の空白を削除
+    "editor.formatOnSave": true, // 保存時自動フォーマット
+    // Go, Makefile など → タブ
+    "[go]": {
+        "editor.tabSize": 4, // タブ幅は 4
+        "editor.insertSpaces": false // タブ文字を使用
+    },
+    "[makefile]": {
+        "editor.tabSize": 4, // タブ幅は 4
+        "editor.insertSpaces": false // タブ文字を使用
+    },
+    // yaml/json → 2 スペ
+    "[yaml]": {
+        "editor.tabSize": 2, // タブ幅は 2
+        "editor.insertSpaces": true // スペースを使用
+    },
+    "[json]": {
+        "editor.tabSize": 2, // タブ幅は 2
+        "editor.insertSpaces": true // スペースを使用
+    },
+    // js/ts/css… → 4 スペ
+    "[typescript]": {
+        "editor.tabSize": 4, // タブ幅は 4
+        "editor.insertSpaces": true // スペースを使用
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 4, // タブ幅は 4
+        "editor.insertSpaces": true // スペースを使用
+    }
+}

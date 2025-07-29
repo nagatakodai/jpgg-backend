@@ -16,7 +16,11 @@
     "vscode": {
       "settings": {
         "editor.formatOnSave": true // 保存時自動フォーマット
-      }
+      },
+      // エディタ拡張
+      "extensions": [
+        "golang.go"
+      ]
     }
   },
   // ポートフォワード
